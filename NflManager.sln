@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{81EC871D-E131-465A-B569-BC49AC4B3450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{453C7983-CE3E-4457-8E76-B2ED9B907D01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doco", "Doco", "{66ACD6F4-23F5-470D-8AC8-376A93B7BD36}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "architecture", "architecture", "{23B893B6-E23F-4A1A-BEB4-089C49D45F56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "decisions", "decisions", "{4591AA49-5DA2-40CB-90D3-0B702E8430D3}"
+	ProjectSection(SolutionItems) = preProject
+		0001-record-architecture-decisions.md = 0001-record-architecture-decisions.md
+		0002-use-a-domaincentric-architecture.md = 0002-use-a-domaincentric-architecture.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81EC871D-E131-465A-B569-BC49AC4B3450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EC871D-E131-465A-B569-BC49AC4B3450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EC871D-E131-465A-B569-BC49AC4B3450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EC871D-E131-465A-B569-BC49AC4B3450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453C7983-CE3E-4457-8E76-B2ED9B907D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453C7983-CE3E-4457-8E76-B2ED9B907D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453C7983-CE3E-4457-8E76-B2ED9B907D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453C7983-CE3E-4457-8E76-B2ED9B907D01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23B893B6-E23F-4A1A-BEB4-089C49D45F56} = {66ACD6F4-23F5-470D-8AC8-376A93B7BD36}
+		{4591AA49-5DA2-40CB-90D3-0B702E8430D3} = {23B893B6-E23F-4A1A-BEB4-089C49D45F56}
+	EndGlobalSection
+EndGlobal
