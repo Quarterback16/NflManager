@@ -19,6 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "decisions", "decisions", "{
 		0001-record-architecture-decisions.md = 0001-record-architecture-decisions.md
 		0002-use-a-domaincentric-architecture.md = 0002-use-a-domaincentric-architecture.md
 		0003-use-a-unix-style-command-line-interface-for-the-presentation-layer.md = 0003-use-a-unix-style-command-line-interface-for-the-presentation-layer.md
+		0004-use-in-memory-database-for-persistence.md = 0004-use-in-memory-database-for-persistence.md
 	EndProjectSection
 EndProject
 Global
