@@ -1,4 +1,4 @@
-# 3. Use an in memory database for persistence
+# 4. Use an in memory database for persistence
 
 Date: 2017-04-13 
 
