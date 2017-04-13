@@ -8,8 +8,7 @@ in the NFL of particular interest to the Fantasy Football community.
 
 ## Installing / Getting started
 
-A quick introduction of the minimal setup you need to get a hello world up &
-running.
+A quick introduction of the minimal setup you need to get a hello world up & running.
 
 ```shell
 packagemanager install awesome-project
@@ -20,6 +19,8 @@ awesome-project "Do something!"  # prints "Nah."
 Here you should say what actually happens when you execute the code above.
 
 ## Developing
+
+Develop features on a Use Case basis employing TDD.
 
 See the architecture decisions in the Doco folder for further information.
 
@@ -36,6 +37,8 @@ See the architecture decisions in the Doco folder for further information.
 
 ## Features
 
+ 1. Load Season - will be a way to intialise a season with teams that have their
+ positions initally assigned.
 
 ## Configuration
 
