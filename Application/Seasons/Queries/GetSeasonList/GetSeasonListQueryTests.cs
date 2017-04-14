@@ -30,7 +30,7 @@ namespace Application.Seasons.Queries.GetSeasonList
 		public void TestInitialize()
 		{
 			// mock data
-			_season = new Season { Id = Id, Year = Year };
+			_season = new Season(new Guid(), Year );
 			_seasons = new List<Season>(){ _season	};
 
 			// instantiate moqs

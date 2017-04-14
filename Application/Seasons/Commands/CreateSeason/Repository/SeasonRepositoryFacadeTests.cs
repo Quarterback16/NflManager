@@ -2,6 +2,7 @@
 using Domain.Seasons;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using System;
 using System.Diagnostics.CodeAnalysis;
 
 namespace Application.Seasons.Commands.CreateSeason.Repository
@@ -23,7 +24,7 @@ namespace Application.Seasons.Commands.CreateSeason.Repository
 		{
 			_mockRepository = new Mock<ISeasonRepository>();
 
-			_season = new Season();
+			_season = new Season( new Guid(), "1920");
 
 			_cut = new SeasonRepositoryFacade(
 				 _mockRepository.Object );

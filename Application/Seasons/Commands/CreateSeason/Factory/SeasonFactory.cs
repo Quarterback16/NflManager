@@ -1,4 +1,5 @@
 ﻿using Domain.Seasons;
+using System;
 
 namespace Application.Seasons.Commands.CreateSeason.Factory
 {
@@ -6,7 +7,7 @@ namespace Application.Seasons.Commands.CreateSeason.Factory
 	{
 		public Season Create( string year )
 		{
-			var season = new Season()
+			var season = new Season(new Guid(), year)
 			{
 				Year = year
 			};

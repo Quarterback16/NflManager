@@ -19,7 +19,6 @@ namespace Application.Seasons.Queries.GetSeasonList
 			var seasons = _repository.GetAll()
 				.Select( p => new SeasonModel()
 				{
-					Id = p.Id,
 					Year = p.Year
 				} );
 
